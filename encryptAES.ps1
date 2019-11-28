@@ -177,7 +177,7 @@ switch($cmd){
         Invoke-AESEncryption -Mode Encrypt -Key $password -Text $secret
     }
    "decrypt" {
-        echo "Decrypted strig: "
+        echo "Decrypted string: "
         Invoke-AESEncryption -Mode Decrypt -Key $password -Text $secret
    }
 }
